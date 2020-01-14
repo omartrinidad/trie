@@ -1,4 +1,3 @@
-
 output=trie`python3-config --extension-suffix`
 target=trie.cpp
 
@@ -9,3 +8,7 @@ compile:
 
 clean:
 	rm trie`python3-config --extension-suffix`
+
+cpp:
+	c++ main.cpp -o main
+	./main
